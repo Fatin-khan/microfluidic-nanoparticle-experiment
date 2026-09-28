@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Secrets
+.env
+.env.*
+
+# Restricted dataset
+aie_python_ready_template.xlsx
+*.xlsx
+*.xls
+
+# Generated model/export files
+*.joblib
+microfluidic_particle_size_ml_project.html
+
+# Archives
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
